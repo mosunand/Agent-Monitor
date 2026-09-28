@@ -1,0 +1,4 @@
+// resources.rc — Windows 资源：exe 内嵌图标。
+// 任务栏 / 开始菜单 / 资源管理器 / Inno 快捷方式读的都是这个内嵌资源；
+// 运行时 setWindowIcon() 只对窗口本身生效，对快捷方式无效。
+IDI_ICON1 ICON "agent-monitor.ico"

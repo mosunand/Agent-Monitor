@@ -15,6 +15,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_executable(agent-monitor WIN32
     src/main.cpp
+    resources.rc
+    agent-monitor.ico
     # util
     src/util/Format.h
     src/util/Format.cpp
